@@ -6,7 +6,15 @@
     
     <script>
         
+    function limpiar() {
+        document.getElementById("UP").value = "";
+        document.getElementById("UC").value = "";
+        document.getElementById("UT").value = "";
+    }
+        
     function comprobar(){
+        
+        limpiar();
         
         var numerador = eval(document.Formulario.Numerador.value);
         
