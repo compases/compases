@@ -6,10 +6,12 @@
     
     <script>
         
+    limpiar();
+        
     function limpiar() {
-        document.getElementById("UP").value = "";
-        document.getElementById("UC").value = "";
-        document.getElementById("UT").value = "";
+        document.getElementById("UP").value = "Sin información";
+        document.getElementById("UC").value = "Sin información";
+        document.getElementById("UT").value = "Sin información";
     }
         
     function comprobar(){
@@ -310,15 +312,15 @@
                                     U.P.
                                 </td>
                                 <td>
-                                    <input id="UP" type="text" style="text-align: center;" readonly>
+                                    <p id="UP" type="text" style="text-align: center;" p></p>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr>  
                                 <td>
                                     U.T.
                                 </td>
                                 <td>
-                                    <input id="UT" type="text" style="text-align: center;" readonly>
+                                    <p id="UT" type="text" style="text-align: center;" p></p>
                                 </td>
                             </tr>
                             <tr>
@@ -326,7 +328,7 @@
                                     U.C.
                                 </td>
                                 <td>
-                                    <input id="UC" type="text" style="text-align:center;" readonly>
+                                    <p id="UC" style="text-align:center;" p></p>
                                 </td>
                             </tr>
                         </table>
